@@ -11,8 +11,8 @@ public class Pratica91 {
         
         Runtime rt = Runtime.getRuntime();
         System.out.println(rt.availableProcessors());
-        System.out.println(rt.totalMemory());
-        System.out.println(rt.freeMemory());
-        System.out.println(rt.maxMemory());
+        System.out.println(rt.totalMemory()/(1024*1024));
+        System.out.println(rt.freeMemory()/(1024*1024));
+        System.out.println(rt.maxMemory()/(1024*1024));
     }
 }
